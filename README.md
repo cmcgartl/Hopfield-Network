@@ -2,7 +2,7 @@
 
 ## Project Overview
 - determines storage capacity and recall accuracy of a Hopfield Neural Network.
-- Uses **Hebbian** and **Pseudo-inverse**learning
+- Uses **Hebbian** and **Pseudo-inverse** learning
 - Measures recognition of stored patterns with varying **noise** and **bias**.
 
 ## Features
