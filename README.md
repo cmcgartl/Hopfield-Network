@@ -1,16 +1,15 @@
 # Hopfield Neural Network – Storage Capacity & Noise Robustness Simulation
 
 ## Project Overview
-- Simulates a **Hopfield associative memory model** to evaluate storage capacity and recall accuracy.
-- Implements: **Hebbian** and **Pseudo-inverse**.learning
-- Measures how well stored patterns are recalled under **noise** and **bias**.
+- determines storage capacity and recall accuracy of a Hopfield Neural Network.
+- Uses **Hebbian** and **Pseudo-inverse**learning
+- Measures recognition of stored patterns with varying **noise** and **bias**.
 
 ## Features
-- Supports **bipolar pattern generation** (`+1/-1`) with customizable probability distribution.
-- Evaluates convergence behavior of the network across **100 neurons** and up to **100 patterns**.
-- Adds optional **bit-flip noise** to test robustness of memory recall.
-- Visualizes results with **matplotlib**: overlap vs. number of stored patterns.
-- Calculates storage capacity `α = L/S` where recall accuracy ≥ 95%.
+- Genarates a binary pattern with customizable probability distribution of +1 or -1.
+- Adds **bit-flip noise** and uneven probability distribution to test memory recall robustness.
+- Graphs the number of overlaps vs. stored patterns using **matplotlib**
+- Calculates storage capacity `α = L/S` with recall accuracy threshold ≥ 95%.
 
 ## Key Experiments
 - Hebbian learning with clean patterns.
